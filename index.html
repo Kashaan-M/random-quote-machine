@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./w3.css">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./index.js" defer></script>
+  <title>Random Quote Machine</title>
+</head>
+<body>
+  <main class="w3-row w3-display-center w3-blue" style="height: 97vh;">
+    <div class="outer-container w3-col s-9 m-8 l-6 w3-display-middle w3-khaki" style="width: 50vw;">
+      <div id="quote-box" class="w3-container w3-white">
+        <div class="quote-text w3-container w3-center w3-section">
+          <span id="open-quote" class="w3-text-blue">❝</span>
+          <span id="text" class="w3-padding-large w3-text-blue"></span>
+        </div>
+        <div class="quote-author w3-container w3-right-align w3-margin-bottom">
+          <span id="author" class="w3-padding-large w3-large w3-text-blue"></span>
+        </div>
+        <div class="btn-wrapper w3-container w3-pale-blue w3-margin-bottom">
+          <a id="tweet-quote" class="w3-left" href="twitter.com/intent/tweet">
+            <button class="w3-button w3-circle w3-blue" id="tweet-btn">
+              <img src="./assets/twitter.svg" alt="share">
+            </button>
+          </a>
+          <button id="new-quote" class="w3-button w3-blue w3-right" role="button">New Quote</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="w3-blue">Developed by <a href="https://kashaan.netlify.app">Kashaan Mahmood</a></footer>
+</body>
+</html>

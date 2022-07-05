@@ -1,0 +1,43 @@
+/* media queries */
+
+@media  screen and (max-width: 1000px) {
+ #text {
+   font-size:1.75rem !important;
+ } 
+}
+
+@media  screen and (max-width: 630px) {
+ #text {
+   font-size:1.5rem !important;
+ } 
+ .outer-container {
+   width: 75vw !important;
+  }
+}
+
+@media  screen and (max-width:390px) {
+ #text {
+   font-size:1.25rem !important;
+ }
+}
+/* ---- */
+
+*,*::before,*::after {
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  font-family:Helvetica, sans-serif;
+}
+
+#open-quote {
+  font-size:3rem;
+} 
+#text {
+  font-size: 2em;
+}
+.trans {
+  transition: all linear 0.4s;
+}
+footer {
+  text-align: center;
+}
